@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b70382be.css",
+    "main.js": "/static/js/main.413018e0.js",
+    "static/media/baby-armalite.jpg": "/static/media/baby-armalite.8be3a671233f89467191.jpg",
+    "static/media/kawal-pilipino.jpg": "/static/media/kawal-pilipino.465cc631b9a873049647.jpg",
+    "static/media/afp_logo.png": "/static/media/afp_logo.2c03cfac17774346ec80.png",
+    "static/media/army.png": "/static/media/army.445a5d4fdbba5fb1b6eb.png",
+    "static/media/rescomLogo.png": "/static/media/rescomLogo.5cea17337d5f7aaebb82.png",
+    "static/media/spinner.jpg": "/static/media/spinner.afa973eee05e0ebff95a.jpg",
+    "static/media/afprescom.png": "/static/media/afprescom.be27243920e49dc2e216.png",
+    "static/media/pdf-printer.png": "/static/media/pdf-printer.5b6eae79c975a0a4eb20.png",
+    "static/media/loader.gif": "/static/media/loader.9d11df4bdd0bb34de773.gif",
+    "static/media/sRGB_IEC61966_2_1.icc": "/static/media/sRGB_IEC61966_2_1.38b05b78f50224cfe229.icc",
+    "static/media/musicLogo_W.svg": "/static/media/musicLogo_W.33869c631c380ba9596b.svg",
+    "static/media/musicLogo_B.svg": "/static/media/musicLogo_B.79d28fe9a021b0118f83.svg",
+    "index.html": "/index.html",
+    "main.b70382be.css.map": "/static/css/main.b70382be.css.map",
+    "main.413018e0.js.map": "/static/js/main.413018e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b70382be.css",
+    "static/js/main.413018e0.js"
+  ]
+}

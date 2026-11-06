@@ -64,6 +64,7 @@ import ActivityPdf from './pages/rids/ActivityPdf';
 import ViewActivityPdf from './pages/rids/ViewActivityPdf';
 import ViewRsoi from './pages/rsoi/ViewRsoi';
 import PrintRids from './pages/rsoi/PrintRids';
+import GetOldData from './pages/rsoi/GetOldData';
 axios.defaults.withCredentials = true;
 
 const App = () => {
@@ -152,6 +153,7 @@ const App = () => {
               <Route path="/addDerogatory/:id" element={<AddDerogatory /> } />
               <Route path="/printRids/:id" element={<PrintRids /> } />
               <Route path="/viewSummaryOfInformation/:id" element={<ViewRsoi /> } />
+              <Route path="/getOldData/:id/afpsn/:afpsn" element={<GetOldData /> } />
               
               <Route path='*' element={<NotFound />} />
             </Routes>

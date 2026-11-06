@@ -288,6 +288,7 @@ const UpdateRids = () => {
       last_name: lastName,
       suffix: suffix,
       afpsn: membership?.afpsn,
+      name: membership?.name,
       designation: membership?.designation,
       reserve_unit: membership?.reserve_unit,
       authority: membership?.authority,
