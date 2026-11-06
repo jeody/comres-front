@@ -1,0 +1,125 @@
+/* Centering the main app content */
+.educ-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.open-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Semi-transparent background overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* The actual pop-up card */
+.modal-box {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  width: 400px;
+  max-width: 90%;
+  position: relative;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* The actual pop-up card */
+.modal-pdfbox {
+  flex: 0 0 100%;
+  margin:auto;
+  display: flex;
+  gap: 2rem;
+  background: rgba(251, 250, 250, 0.5);
+  padding: 5px;
+  border-radius: 8px;
+  width: 1200px;
+  max-width: 60%;
+  position: relative;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.pdf-container {
+  width: 100%;
+  height: 610px;
+  max-width: 100%;
+  gap: 2rem;
+  overflow-y: auto;
+  background-color: rgb(247, 248, 249);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: white;
+  background: black;
+  border: 1px solid whitesmoke;
+  font-size: 24px;
+  padding: 0px 4px;
+  cursor: pointer;
+}
+
+.form-group {
+  margin: 20px 0;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: black;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.form-group input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: black;
+  background-color: transparent;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease;
+    
+  input[type='date'] {
+    font-size: 1.2rem;
+  }
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}

@@ -1,0 +1,433 @@
+.rids {
+  /* Heading */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--color-dark);
+    margin-bottom: 1rem;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+  h4 {
+    font-size: 2rem;
+  }
+  h5 {
+    font-size: 1.5rem;
+  }
+
+  .rids-container {
+    flex: 0 0 100%;
+    margin: auto;
+    display: flex;
+    gap: 2rem;
+  }
+
+  .rids-table {
+    flex: 0 0 100%;
+    margin: auto;
+    display: flex;
+    gap: 0rem;
+  }
+
+  .item-select {
+    display: flex;
+    text-align: left;
+    align-items: left;
+    float: left;
+    border: none;
+    justify-content: space-between;
+    // justify-content: left;
+    // justify-content: space-around;
+    // justify-content: stretch;
+  }
+
+  .item-two {
+    display: flex;
+    align-items: center;
+    float: left;
+    border: none;
+    justify-content: space-between;
+    // justify-content: left;
+    // justify-content: space-around;
+    // justify-content: stretch;
+  }
+
+  .item-one {
+    display: flex;
+    align-items: center;
+    float: left;
+    border: none;
+    justify-content: stretch;
+    // justify-content: left;
+    // justify-content: space-between;
+    // justify-content: space-around;
+  }
+
+  .wrap {
+    flex-wrap: wrap;
+  }
+
+  .nowrap {
+    flex-wrap: nowrap;
+  }
+
+  .rids-frame {
+    width: 100%;
+    // max-width: 400px;
+    background-color: var(--color-white);
+    padding: 2rem;
+    border: 1px solid #030b6b;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+  }
+  .rids-photo {
+    width: 100%;
+    border: 1px solid #fff;
+    background-color: var(--light-blue);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    & img {
+      width: 200px;
+      height: 200px;
+      border: 2px solid #fff;
+      border-radius: 50%;
+    }
+
+    & h3 {
+      color: #fff;
+      font-size: 2rem;
+      text-align: center;
+    }
+  }
+  ::placeholder {
+  color: #cac9c9; /* Replace with your desired color */
+  opacity: 1;    /* Required for Firefox to prevent default transparency */
+}
+  form {
+    select {
+      order: 1; /* Ensures input stays on top visually */
+      display: block;
+      font-size: 1.6rem;
+      font-weight: 500;
+      text-align: left;
+      padding: 0rem;
+      margin: 0.5rem auto;
+      width: 100%;
+      font-size: 16px;
+      color: #333;
+      border: none;
+      border-bottom: 1px solid #3498db;
+      border-radius: 0px;
+      outline: none;
+      background-color: transparent;
+      box-sizing: border-box;
+      transition: border-color 0.2s ease;
+    }
+    input[type='text'],
+    input[type='number'],
+    input[type='file'],
+    input[type='email'],
+    input[type='date'],
+    textarea,
+    input[type='password'] {
+      order: 1; /* Ensures input stays on top visually */
+      display: block;
+      font-size: 1.6rem;
+      font-weight: 500;
+      text-align: center;
+      padding: 0rem;
+      margin: 0.5rem auto;
+      width: 100%;
+      font-size: 16px;
+      color: #333;
+      border: none;
+      border-bottom: 1px solid #3498db;
+      border-radius: 0px;
+      outline: none;
+      background-color: transparent;
+      box-sizing: border-box;
+      transition: border-color 0.2s ease;
+    }
+
+    input:focus {
+      border-bottom-color: #2ecc71;
+    }
+
+    input:focus ~ label {
+      color: #007bff;
+    }
+
+    label {
+      order: 2; /* Ensures label stays below visually */
+      margin-top: 2px; /* Space between the bottom border and text */
+      display: block;
+      font-size: 1rem;
+      font-weight: 500;
+      text-align: center;
+      margin-top: 5px; /* Space between the bottom border and text */
+      color: #666;
+      transition: color 0.2s ease;
+    }
+
+    .input-one[type='text'] {
+      order: 1; /* Ensures input stays on top visually */
+      display: block;
+      font-size: 1.6rem;
+      font-weight: 500;
+      text-align: left;
+      padding: 0rem;
+      margin: 0.5rem auto;
+      width: 100%;
+      font-size: 16px;
+      color: #333;
+      border: none;
+      border-bottom: 1px solid #3498db;
+      border-radius: 0px;
+      outline: none;
+      background-color: transparent;
+      box-sizing: border-box;
+      transition: border-color 0.2s ease;
+    }
+
+    .input-two[type='text'] {
+      display: block;
+      font-size: 1.6rem;
+      font-weight: 500;
+      text-align: left;
+      padding: 0rem;
+      margin: auto;
+      width: 100%;
+      font-size: 16px;
+      border: none;
+      outline: none;
+      background-color: transparent;
+      transition: border-color 0.2s ease;
+    }
+
+    .input-three[type='text'] {
+      display: block;
+      font-size: 1.6rem;
+      font-weight: 500;
+      text-align: center;
+      padding: 0rem;
+      margin: auto;
+      width: 100%;
+      font-size: 16px;
+      border: none;
+      border-bottom: 1px solid #3498db;
+      border-radius: 0px;
+      outline: none;
+      background-color: transparent;
+      transition: border-color 0.2s ease;
+    }
+
+    .input-four[type='date'] {
+      order: 1; /* Ensures input stays on top visually */
+      display: block;
+      font-size: 1.6rem;
+      font-weight: 500;
+      text-align: left;
+      padding: 0rem;
+      margin: 0.5rem auto;
+      width: 100%;
+      font-size: 16px;
+      color: #333;
+      border: none;
+      border-bottom: 1px solid #3498db;
+      border-radius: 0px;
+      outline: none;
+      background-color: transparent;
+      box-sizing: border-box;
+      transition: border-color 0.2s ease;
+    }
+
+    .label-one {
+      order: 2; /* Ensures label stays below visually */
+      margin-top: 2px; /* Space between the bottom border and text */
+      display: block;
+      font-size: 1rem;
+      font-weight: 500;
+      text-align: left;
+      margin-top: 5px; /* Space between the bottom border and text */
+      color: #666;
+      transition: color 0.2s ease;
+    }
+    // textarea {
+    //   width: 100%;
+    // }
+  }
+}
+
+table {
+  width: 100%; /* Sets the overall width of the table */
+  border-collapse: collapse; /* Merges double borders into a single clean border */
+}
+
+.table-three {
+  border: 0px;
+  width: 100%;
+  padding: 0px;
+}
+
+.th-three {
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-align: center;
+  color: black;
+  transition: color 0.2s ease;
+  padding: 2px 3px; /* 10px applied to both left and right */
+}
+
+.td-three {
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: left;
+  color: black;
+  transition: color 0.2s ease;
+  padding: 0px 5px; /* 10px applied to both left and right */
+}
+
+.table-one {
+  border: 0px;
+}
+
+.th-one {
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: left;
+  color: black;
+  transition: color 0.2s ease;
+  padding: 2px 3px; /* 10px applied to both left and right */
+}
+
+.td-one {
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: left;
+  color: black;
+  transition: color 0.2s ease;
+  padding: 2px 3px; /* 10px applied to both left and right */
+}
+
+.table-two {
+  border: 0px;
+  width: 100%;
+  padding: 0px;
+}
+
+.th-two {
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: left;
+  color: black;
+  transition: color 0.2s ease;
+  padding: 2px 3px; /* 10px applied to both left and right */
+}
+
+.td-two {
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-align: center;
+  color: black;
+  transition: color 0.2s ease;
+  padding: 2px 5px; /* 10px applied to both left and right */
+}
+
+table,
+th,
+td {
+  border: 1px solid black; /* Sets border size (thickness), style, and color */
+}
+
+th {
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: left;
+  color: black;
+  transition: color 0.2s ease;
+  padding: 1px 10px; /* 10px applied to both left and right */
+}
+
+td {
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-align: left;
+  color: black;
+  transition: color 0.2s ease;
+  padding: 2px 10px; /* 10px applied to both left and right */
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+  gap: 1.6rem;
+
+  color: var(--color-medium);
+  font-size: 1.4rem;
+}
+
+.timer {
+  float: left;
+  font-size: 1.8rem;
+  color: var(--color-medium);
+  border: 2px solid var(--color-dark);
+  padding: 1.35rem 2.8rem;
+  border-radius: 100px;
+}
+
+.loader {
+  width: 50px;
+  height: 24px;
+  background:
+    radial-gradient(circle closest-side, currentColor 90%, #0000) 0% 50%,
+    radial-gradient(circle closest-side, currentColor 90%, #0000) 50% 50%,
+    radial-gradient(circle closest-side, currentColor 90%, #0000) 100% 50%;
+  background-size: calc(100% / 3) 12px;
+  background-repeat: no-repeat;
+  animation: loader 1s infinite linear;
+}
+
+@keyframes loader {
+  20% {
+    background-position:
+      0% 0%,
+      50% 50%,
+      100% 50%;
+  }
+  40% {
+    background-position:
+      0% 100%,
+      50% 0%,
+      100% 50%;
+  }
+  60% {
+    background-position:
+      0% 50%,
+      50% 100%,
+      100% 0%;
+  }
+  80% {
+    background-position:
+      0% 50%,
+      50% 50%,
+      100% 100%;
+  }
+}
